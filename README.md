@@ -1,18 +1,22 @@
-# My custom css for firefox
-This file will remove the topbar in which the tabs are being displayed. Fot this theme the plugin [Tree Style Tab](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/) should be installed in order to navigate different tabs.
+# Custom CSS for Firefox
+
+This repository contains custom CSS files for Firefox to remove the topbar in which the tabs are being displayed. To use this theme, you'll need to have the [Tree Style Tab](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/) plugin installed for tab navigation.
 
 ## Installation
 
 ### Configuration
-[^1]: Navigate to [about:config](about:config)
-[^2]: Click Accept the risk and continue
-[^3]: Search for "toolkit.legacyUserProfileCustomizations.stylesheets" and double click to set it to true
 
-## Applying style
-[^1]: Navigate to [about:profiles](about:profiles)
-[^2]: Open the folder to your root directory
-[^3]: In the root directory place the folder from the repo called "chrome"
+1. Open Firefox and navigate to `about:config`.
+2. Click on "Accept the risk and continue" if prompted.
+3. In the search bar, type "toolkit.legacyUserProfileCustomizations.stylesheets" and locate it in the list of preferences.
+4. Double-click on the preference to set it to "true."
 
+### Applying the Style
 
+1. Open Firefox and navigate to `about:profiles`.
+2. Open the folder associated with your Firefox profile.
+3. Inside your profile's root directory, place the folder from this repository called "chrome."
 
+Now, your custom CSS styles should be applied, and the topbar with tabs will be removed when you use the Tree Style Tab plugin.
 
+Feel free to make any additional improvements or clarifications as needed for your specific project.
