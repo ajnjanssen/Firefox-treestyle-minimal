@@ -1,5 +1,7 @@
 # Custom CSS for Firefox
 
+![Cover](cover.jpg)
+
 This repository contains custom CSS files for Firefox to remove the topbar in which the tabs are being displayed. To use this theme, you'll need to have the [Tree Style Tab](https://addons.mozilla.org/en-US/firefox/addon/tree-style-tab/) plugin installed for tab navigation.
 
 ## Installation
